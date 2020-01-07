@@ -1,0 +1,9 @@
+{
+	"build-app": {
+		"legacy": true,
+		"features": {
+			"foo": true
+		}
+	},
+	"create-app": {}
+}
