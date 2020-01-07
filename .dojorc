@@ -1,6 +1,15 @@
 {
 	"build-app": {
 		"legacy": true,
+		"externals": {
+			"dependencies": [{
+				"name": "dojo",
+				"from": "./node_modules/dojo/",
+				"to": "dojo",
+				"type": "umd",
+				"inject": [ "dojo.js" ]
+			}]
+		},
 		"features": {
 			"foo": true
 		}
